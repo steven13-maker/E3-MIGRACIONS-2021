@@ -13,8 +13,8 @@ body{
 #container{
   display:grid;
   border: 1px solid red;
-  grid-template-columns: 3.75fr 8.75fr 1fr 8.75fr 3.75fr;
-  grid-template-rows: 10vh 8vh 30vh 4vh 30vh 8vh 10vh;
+  grid-template-columns: 3.75fr 8.75fr 1fr 8.75fr 3.75fr 1fr ;
+  grid-template-rows: 10vh 8vh 30vh 4vh 30vh 8vh 30vh 4vh 30vh 10vh;;
 }
 
 #container .cabecera{
@@ -92,14 +92,14 @@ body{
   padding: 9px;
   background-color:#023300;
   border-radius: 5px;
-  grid-row: 7/8;
+  grid-row: 7/9;
   grid-column: 4/5;
 }
 #container .imagen6{
   padding: 9px;
   background-color:#023300;
   border-radius: 5px;
-  grid-row: 7/8;
+  grid-row: 7/9;
   grid-column: 2/3;
 }
 #container .pie{
