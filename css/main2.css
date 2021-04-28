@@ -5,14 +5,14 @@
 
 body{
   font-family: 'Ubuntu', serif;
-  background-color: #000000;
+  background-color: #17ebbf;
   color:white;
   font-size: 22px;;
 }
 
 #container{
   display:grid;
-  border: 1px solid black;
+  border: 1px solid white;
   grid-template-columns: 1fr 0.6fr 1fr;
   grid-template-rows: calc(10vh - 10px) calc(40vh - 10px) calc(40vh - 10px) calc(10vh - 10px);
   grid-column-gap: 30px;
@@ -21,7 +21,7 @@ body{
 
 #container .titulo{
   padding: 9px;
-  background-color:#000000;
+  background-color:#17ebbf;
   border-radius: 5px;
   grid-column:1/5;
   grid-row:1/2;
