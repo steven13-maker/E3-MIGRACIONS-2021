@@ -6,8 +6,8 @@
 body{
   font-family: 'Ubuntu', sans-serif;
   background-color: #EFEFEF;
-  color:blue;
-  font-size: 22px;;
+  color:Black;
+  font-size: 15px;;
 }
 
 #container{
@@ -108,6 +108,6 @@ body{
 }
 
 img{
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
 }
