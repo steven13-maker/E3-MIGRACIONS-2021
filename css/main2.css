@@ -13,7 +13,7 @@ body{
 #container{
   display:grid;
   border: 1px solid white;
-  grid-template-columns: 1fr 0.6fr 1fr;
+  grid-template-columns: 2fr 8fr 2fr;
   grid-template-rows: calc(10vh - 10px) calc(40vh - 10px) calc(40vh - 10px) calc(10vh - 10px);
   grid-column-gap: 30px;
   grid-row-gap: 30px;
